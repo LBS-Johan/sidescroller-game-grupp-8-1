@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 64
       height: 32
-    spriteID: fc21488286ae1d14197f6414c6dec937
+    spriteID: 57503cf0787e84f4596040728070e098
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -163,7 +163,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Submarine
+    - name: Submarine texture
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -171,7 +171,7 @@ ScriptedImporter:
         y: 0
         width: 64
         height: 32
-      spriteId: fc21488286ae1d14197f6414c6dec937
+      spriteId: 57503cf0787e84f4596040728070e098
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
