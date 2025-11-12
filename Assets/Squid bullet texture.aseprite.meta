@@ -163,7 +163,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Squid bullet
+    - name: Squid bullet texture
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
