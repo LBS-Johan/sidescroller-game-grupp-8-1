@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 925bd8b4efcab0d4a9738bd05a2efd71
+guid: 57c01a304a505b64ba0b3471e2a7553a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: bullet
+  - name: Squid
     originalName: 
-    pivot: {x: 0.48, y: -0.90909094}
+    pivot: {x: 0.25, y: -0.13636364}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 25
-      height: 11
-    spriteID: 4637fce3e85f49745993a96b0d61d92f
+      width: 20
+      height: 22
+    spriteID: 01cc25ec7a5423e4baeb62c388e587ee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 3318161334
+      value0: 2092594264
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: bullet
+    name: Squid
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: bullet
+    - name: Squid
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 4
-        y: 10
-        width: 25
-        height: 11
-      spriteId: 4637fce3e85f49745993a96b0d61d92f
+        x: 11
+        y: 3
+        width: 20
+        height: 22
+      spriteId: 01cc25ec7a5423e4baeb62c388e587ee
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -182,4 +182,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 64, y: 32}
+  previousTextureSize: {x: 32, y: 32}
