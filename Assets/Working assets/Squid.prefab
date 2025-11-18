@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   fireButton: 0
   fireDirection: {x: -1, y: 0}
-  coolDown: 0.5
+  coolDown: 1
   prefab: {fileID: 4612579065324966208, guid: c8a3278a9bc6b0d419f8569d99f95f55, type: 3}
   spawnLocation: {fileID: 0}
 --- !u!61 &6949125432338646534
@@ -170,13 +170,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7642216350478092737}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fad2e2b23672224facc6828acf7738f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  velocity: {x: 1, y: 1}
-  zigzagTime: 30000
+  velocity: {x: 0, y: 4}
+  zigzagTime: 1
   zigzagdirection: 0
 --- !u!50 &5272284817209317630
 Rigidbody2D:

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -26,7 +24,7 @@ public class EnemyHealth : MonoBehaviour
     public void Hurt(int amount)
     {
         health -= amount;
-        if(audioSource != null && hurtSound != null)
+        if (audioSource != null && hurtSound != null)
         {
             audioSource.PlayOneShot(hurtSound);
         }
@@ -39,9 +37,10 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
-        if(deathObject != null)
+        if (deathObject != null)
         {
-            Instantiate(deathObject, transform.position, Quaternion.identity);
+            GameObject go = Instantiate(deathObject, transform.position, Quaternion.identity);
+            Destroy(go, 0.6f);
         }
 
         Destroy(gameObject);

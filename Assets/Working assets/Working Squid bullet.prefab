@@ -10,7 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2253911629886400664, guid: f01e4e5d422595e43b13e2844f50639e, type: 3}
       propertyPath: m_Name
-      value: Squid bullet
+      value: Working Squid bullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f01e4e5d422595e43b13e2844f50639e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f01e4e5d422595e43b13e2844f50639e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: f01e4e5d422595e43b13e2844f50639e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: f01e4e5d422595e43b13e2844f50639e, type: 3}
       propertyPath: m_LocalPosition.x
