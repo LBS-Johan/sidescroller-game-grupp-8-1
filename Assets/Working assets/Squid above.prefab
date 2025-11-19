@@ -100,7 +100,7 @@ MonoBehaviour:
   fireButton: 0
   fireDirection: {x: -1, y: 0}
   coolDown: 3
-  prefab: {fileID: 4612579065324966208, guid: c8a3278a9bc6b0d419f8569d99f95f55, type: 3}
+  prefab: {fileID: 3528688827592404120, guid: dc94bb035c21dc94684d47ce3d274c20, type: 3}
   spawnLocation: {fileID: 0}
 --- !u!61 &1335445927556954261
 BoxCollider2D:

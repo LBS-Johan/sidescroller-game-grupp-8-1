@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2502dc43cfdbfc40b80d3044a4f574c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 2
+  maxHealth: 3
   hurtSound: {fileID: 0}
   deathObject: {fileID: -2253911629886400664, guid: d51b0dac2040d934bb2f277e6db132ab, type: 3}
 --- !u!61 &4819753615178590853
