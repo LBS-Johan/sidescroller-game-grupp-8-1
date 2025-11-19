@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   fireButton: 0
   fireDirection: {x: -1, y: 0}
-  coolDown: 1
+  coolDown: 3
   prefab: {fileID: 4612579065324966208, guid: c8a3278a9bc6b0d419f8569d99f95f55, type: 3}
   spawnLocation: {fileID: 0}
 --- !u!61 &6949125432338646534
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 1
   hurtSound: {fileID: 0}
-  deathObject: {fileID: 0}
+  deathObject: {fileID: -2253911629886400664, guid: d51b0dac2040d934bb2f277e6db132ab, type: 3}
 --- !u!114 &6753831544184757766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,9 +175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fad2e2b23672224facc6828acf7738f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  velocity: {x: 0, y: 4}
+  velocity: {x: 1, y: 1}
   zigzagTime: 1
-  zigzagdirection: 0
+  zigzagdirection: 1
 --- !u!50 &5272284817209317630
 Rigidbody2D:
   serializedVersion: 5
