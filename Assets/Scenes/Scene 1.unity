@@ -228,6 +228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Working Submarine
       objectReference: {fileID: 0}
+    - target: {fileID: 8533991534253782575, guid: 6da9988d52d7b434dbaf29b3b30724e4, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
