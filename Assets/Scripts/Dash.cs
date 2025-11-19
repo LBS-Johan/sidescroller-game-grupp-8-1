@@ -1,21 +1,18 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Dash : MonoBehaviour
 {
-    //Serialized Fields for attributes
     [SerializeField]
     float movementSpeed = 1f;
 
     //Variables used within this script
     Rigidbody2D rigidBody;
     Collider2D coll2D;
-
+    float timer = 0f;
     Vector2 playerHalfSize = Vector2.zero;
-
-    // Start is called before the first frame update
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
         rigidBody = GetComponent<Rigidbody2D>();
         if (rigidBody == null)
         {
@@ -28,10 +25,9 @@ public class PlayerMovement : MonoBehaviour
             playerHalfSize = coll2D.bounds.extents;
         }
     }
-
-    // Update is called once per frame
     void Update()
     {
+        timer -= Time.deltaTime;
         if (rigidBody == null)
         {
             return;
@@ -42,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
         float verticalBound = Camera.main.orthographicSize - playerHalfSize.y;
         float horizontalBound = Camera.main.orthographicSize * Camera.main.aspect - playerHalfSize.x;
 
-        if (transform.position.y < verticalBound && (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)))
+        if (transform.position.y < verticalBound && (Input.GetKey(KeyCode.UpArrow) || (Input.GetKey(KeyCode.W))))
         {
             direction.y = 1;
         }
@@ -59,10 +55,18 @@ public class PlayerMovement : MonoBehaviour
             direction.x = -1;
 
         }
-
+        if (Input.GetKeyDown(KeyCode.LeftShift) && timer < 0)
+        {
+            movementSpeed = 20;
+            Invoke("ResetSpeed", 0.17f);
+            timer = 2f;
+        }
         rigidBody.linearVelocity = direction.normalized * movementSpeed;
 
     }
-
+    private void ResetSpeed()
+    {
+        movementSpeed = 4;
+    }
 
 }
