@@ -1188,6 +1188,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 77656480474664139, guid: 4435cbcc5dd631c4aacddba061aa56cf, type: 3}
+      propertyPath: coolDown
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1353339653759038967, guid: 4435cbcc5dd631c4aacddba061aa56cf, type: 3}
       propertyPath: m_Name
       value: Robot spawner
