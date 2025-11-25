@@ -4,6 +4,8 @@ public class Dash : MonoBehaviour
 {
     [SerializeField]
     float movementSpeed = 1f;
+    [SerializeField]
+    float dashcooldown = 2f;
 
     //Variables used within this script
     Rigidbody2D rigidBody;
