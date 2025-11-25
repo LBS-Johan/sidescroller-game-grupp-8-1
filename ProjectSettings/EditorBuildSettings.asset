@@ -12,7 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Fight 1.unity
     guid: 596d0e254514b7943a6f7b6ad89838f0
   - enabled: 1
-    path: Assets/Scenes/Clam bossfight Fight 2 upgrade 1.unity
+    path: Assets/Scenes/Clam bossfight Fight 2 upgrade 1 lower cooldowns.unity
     guid: c021d660e6cbc744ea946d68ce6e16f9
+  - enabled: 1
+    path: Assets/Scenes/Clam bossfight Fight 2 upgrade 2 faster sub and lower dash
+      cooldowns.unity
+    guid: beebfea7d8f491b4b92368c4b873261b
+  - enabled: 1
+    path: Assets/Scenes/Clam bossfight Fight 2 upgrade 3 more health.unity
+    guid: a3d0f71f4ffb6a74fbbaf2cdf7b41d8c
+  - enabled: 1
+    path: Assets/Scenes/Upgrade 1.unity
+    guid: 66df3def4b71555458b107c1b0e11379
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
