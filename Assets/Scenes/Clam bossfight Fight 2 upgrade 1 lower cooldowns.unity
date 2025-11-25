@@ -171,6 +171,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Submarine
       objectReference: {fileID: 0}
+    - target: {fileID: 2721950459508378430, guid: 8343060d72b7a164897794efaef97cf8, type: 3}
+      propertyPath: dashcooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721950459508378430, guid: 8343060d72b7a164897794efaef97cf8, type: 3}
+      propertyPath: dashcoooldown
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871625873849780785, guid: 8343060d72b7a164897794efaef97cf8, type: 3}
+      propertyPath: coolDown
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
