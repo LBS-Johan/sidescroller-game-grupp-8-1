@@ -108,9 +108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14747414387c4bf4389d1f07738460d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 3
+  maxHealth: 50
   hurtSound: {fileID: 0}
-  gameOverSceneName: New Scene
+  gameOverSceneName: Game-Over scene
 --- !u!50 &7061770021186451305
 Rigidbody2D:
   serializedVersion: 5
@@ -231,3 +231,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   movementSpeed: 4
+  dashcooldown: 2

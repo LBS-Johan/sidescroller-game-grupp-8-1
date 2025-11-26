@@ -267,7 +267,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1258249387180990313, guid: 4aaed1a9d2b320d43ac16b1d6d4072e5, type: 3}
       propertyPath: newSceneName
-      value: Clam bossfight Fight 2 upgrade 2 faster sub and lower dash cooldowns
+      value: Clam bossfight Fight 2 upgrade 2 faster sub
       objectReference: {fileID: 0}
     - target: {fileID: 3963302022867352911, guid: 4aaed1a9d2b320d43ac16b1d6d4072e5, type: 3}
       propertyPath: m_Name
